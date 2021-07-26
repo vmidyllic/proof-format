@@ -6,7 +6,7 @@
     "type": "@type",
     
     "IdenMerkleProof": {
-        "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/main/proof.json-ld#IdenMerkleProof",
+        "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/main/iden-proof.json-ld#IdenMerkleProof",
         "@context": {
           "@version": 1.1,
           "@protected": true,
