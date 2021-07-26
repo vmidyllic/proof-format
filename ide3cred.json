@@ -38,6 +38,10 @@
         "expirationDate": {"@id": "iden3cred:expirationDate", "@type": "xsd:dateTime"},
         "proof": {"@id": "iden3proof:proof", "@type": "@id", "@container": "@graph"}
       }
+    },
+    "Iden3Proof":{
+      "id": "https://raw.githubusercontent.com/vmidyllic/proof-format/main/iden3proof.jsonld#Iden3proof",
+      "@context"
     }
   }
 }
