@@ -1,4 +1,5 @@
 {
+  "@context": {
     "@version": 1.1,
     "@protected": true,
     "id": "@id",
@@ -28,4 +29,5 @@
           "revocation_tree_root": {"@id": "iden-proof-vocab:revocation_tree_root", "@nest": "state","@type": "xsd:string"}
         }
       }
+    }
 }
