@@ -2,7 +2,7 @@
   "@context": {
     "id": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld/#iden3proof",
     "type": "@id",
-    "iden3proof": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld",
+    "iden3proof": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld#",
     "proof": {"@id": "iden3proof:proof", "@type": "@id", "@container": "@graph"},
     "dc": "http://purl.org/dc/terms/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
