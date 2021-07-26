@@ -1,8 +1,8 @@
 {
   "@context": {
-    "id": "http://968601a610b1.ngrok.io/#iden3Proof",
+    "id": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld/#iden3Proof",
     "type": "@id",
-    "iden3proof": "http://968601a610b1.ngrok.io/#",
+    "iden3proof": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld",
     "proof": {"@id": "iden3proof:proof", "@type": "@id", "@container": "@graph"},
     "dc": "http://purl.org/dc/terms/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
