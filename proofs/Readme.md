@@ -2,6 +2,8 @@
 Here you can find description of IdenMerkleProof
 **
 
-#confirmed
+[Confirmed is a state](#confirmed)
 
-Confirmed is a state
+# Confirmed
+
+Confirmed is a state of transaction which is compleated
