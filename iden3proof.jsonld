@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "id": "http://968601a610b1.ngrok.io/#iden3Proof",
+    "type": "@id",
+    "iden3proof": "http://968601a610b1.ngrok.io/#",
+    "proof": {"@id": "iden3proof:proof", "@type": "@id", "@container": "@graph"},
+    "dc": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "expiration": {"@id": "iden3proof:expiration", "@type": "xsd:dateTime"},
+    "nonce":  {"@id": "iden3proof:nonce", "@type": "xsd:integer"},
+    "issuer": {"@id": "iden3proof:issuer", "@type": "@id"},
+    "state":"@nest",
+    "tx_id": {"@id": "iden3proof:tx_id", "@nest": "state"},
+    "root_of_roots": {"@id": "iden3proof:root_of_roots", "@nest": "state"}
+  }
+}

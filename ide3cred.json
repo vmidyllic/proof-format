@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "id": "@id",
+    "type": "@type",
+
+    "Iden3Credential": {
+      "@id": "https://ide3.com/credentials/v1#Iden3Credential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "iden3cred": "https://iden3.com/v1/credentials#",
+        "iden3proof": "https://iden3.core/proofs/#iden3Proof",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+        "dataSchema": {
+          "@id": "iden3cred:dataSchema",
+          "@type": "@id",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+
+            "id": "@id",
+            "type": "@type",
+
+            "iden3cred": "https://www.w3.org/2018/credentials#",
+
+            "JsonSchemaValidator2018": "cred:JsonSchemaValidator2018"
+          }
+        },
+        "data": {"@id": "cred:data", "@type": "@id"},
+        "expirationDate": {"@id": "cred:expirationDate", "@type": "xsd:dateTime"},
+        "proof": {"@id": "iden3proof:proof", "@type": "@id", "@container": "@graph"}
+      }
+    }
+  }
+}
