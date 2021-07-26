@@ -16,7 +16,7 @@
         "type": "@type",
 
         "iden3cred": "https://raw.githubusercontent.com/vmidyllic/proof-format/main/ide3cred.json#",
-        "iden3proof": "https://raw.githubusercontent.com/vmidyllic/proof-format/main/iden3proof.jsonld#",
+        "iden3proof": "https://raw.githubusercontent.com/vmidyllic/proof-format/main/iden3proof.jsonld#.",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
 
         "dataSchema": {
