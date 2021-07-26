@@ -7,7 +7,7 @@
     "type": "@type",
 
     "Iden3Credential": {
-      "@id": "https://ide3.com/credentials/v1#Iden3Credential",
+      "@id": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld/#Iden3Credential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -15,8 +15,8 @@
         "id": "@id",
         "type": "@type",
 
-        "iden3cred": "https://iden3.com/v1/credentials#",
-        "iden3proof": "https://iden3.core/proofs/#iden3Proof",
+        "iden3cred": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld#",
+        "iden3proof": "https://github.com/vmidyllic/proof-format/blob/main/iden3proof.jsonld",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
 
         "dataSchema": {
