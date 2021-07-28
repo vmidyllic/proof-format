@@ -6,7 +6,7 @@
     "type": "@type",
 
     "CustomCredential": {
-        "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-2.json-ld#CustomCredential",
+        "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-4.json-ld#CustomCredential",
         "@context":{
             "@version": 1.1,
             "@protected": true,
