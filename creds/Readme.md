@@ -2,7 +2,7 @@ Here you can find description of creds
 
 [identifier is a state](#identifier)
 
-# confirmed
+# identifier
 
 identifier is
 
@@ -19,3 +19,15 @@ proof is
 
 other_identifier includes
 
+
+[index is a list](#index)
+
+# index
+
+index is a list
+
+[value is a list](#value)
+
+# value
+
+value is a list
