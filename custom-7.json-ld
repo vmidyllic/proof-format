@@ -5,7 +5,7 @@
     "id": "@id",
     "type": "@type",
     "CustomCredential": {
-      "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-6.json-ld#CustomCredential",
+      "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-7.json-ld#CustomCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -29,14 +29,14 @@
           "@id": "custom-vocab:index",
           "@container": "@list",
           "@values": [
-            {
-              "@type": "xsd:integer",
-              "@id": "custom-vocab:age"
-            },
-            {
-              "@type": "xsd:string",
-              "@id": "custom-vocab:passport"
-            }
+            { 
+              "@type" : "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-6.json-ld#CustomCredential",
+              "@container" : "@set",
+              "@values" : [
+                  {"@type" : "xsd:string", "@id":"custom-vocab:passport"},
+                  {"@type" : "xsd:integer", "@id":"custom-vocab:age"}
+              ]
+           }
           ]
         }
       }
