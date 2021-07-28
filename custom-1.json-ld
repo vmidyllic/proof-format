@@ -18,10 +18,12 @@
             "passport":"{"@id": "custom-vocab:passport",  "@type": "xds:string"},
             "nationality":"{"@id": "custom-vocab:nationality",  "@type": "xds:string"},
             "index":{"@id": "custom-vocab:index",  "@container": "@list", "@values" : [
-               {"@type" : "xsd:double", "@id":"custom-vocab:age"},
-               {"@type" : "xsd:double", "@id":"custom-vocab:passport"}
+               {"@type" : "xsd:integer", "@id":"custom-vocab:age"},
+               {"@type" : "xsd:string", "@id":"custom-vocab:passport"}
            ]},
-            "value":{"@id": "custom-vocab:value",  "@container": "@list"}
+            "value":{"@id": "custom-vocab:value",  "@container": "@list", "@values" : [
+               {"@type" : "xsd:string", "@id":"custom-vocab:nationality"}
+           ]}
         }
     }
   }
