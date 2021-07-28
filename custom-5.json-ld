@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+
+    "CustomCredential": {
+        "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-5.json-ld#CustomCredential",
+        "@context":{
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "custom-vocab": "https://github.com/vmidyllic/proof-format/blob/new/creds/Readme.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "age":{"@id": "custom-vocab:age",  "@type": "xds:integer"},
+            "passport":{"@id": "custom-vocab:passport",  "@type": "xds:string"},
+            "nationality":{"@id": "custom-vocab:nationality",  "@type": "xds:string"}
+        }
+    }
+  }
+}
