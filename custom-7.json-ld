@@ -29,14 +29,8 @@
           "@id": "custom-vocab:index",
           "@container": "@list",
           "@values": [
-            { 
-              "@type" : "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-6.json-ld#CustomCredential",
-              "@container" : "@set",
-              "@values" : [
-                  {"@type" : "xsd:string", "@id":"custom-vocab:passport"},
-                  {"@type" : "xsd:integer", "@id":"custom-vocab:age"}
-              ]
-           }
+                  {"@id":"custom-vocab:passport"},
+                  {"@id":"custom-vocab:age"}
           ]
         }
       }
