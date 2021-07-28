@@ -5,7 +5,7 @@
     "id": "@id",
     "type": "@type",
     "CustomCredential": {
-      "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-8.json-ld#CustomCredential",
+      "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-9.json-ld#CustomCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -29,8 +29,7 @@
           "@id": "custom-vocab:index",
           "@container": "@list",
           "@values": [
-                  {"@id":"custom-vocab:passport"},
-                  {"@id":"custom-vocab:age"}
+              {"@value": "age"}
           ]
         }
       }
