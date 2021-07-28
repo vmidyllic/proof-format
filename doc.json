@@ -6,10 +6,7 @@
       
     }
   }
-  index":{"@id": "custom-vocab:index",  "@container": "@list", "@values" : [
-    {"@type" : "xsd:integer", "@id":"custom-vocab:age"},
-    {"@type" : "xsd:string", "@id":"custom-vocab:passport"}
-]},
+  
  "value":{"@id": "custom-vocab:value",  "@container": "@list", "@values" : [
     {"@type" : "xsd:string", "@id":"custom-vocab:nationality"}
 ]}
