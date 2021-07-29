@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+ 
+    "DayOfWeek":{
+      "@id": "0:dayOfWeek",
+      "@type": "rdf:Property",
+      "rdfs:label": "dayOfWeek",
+      "0:rangeIncludes": {
+        "@id": "0:DayOfWeek"
+      },
+      "rdfs:comment": "The day of the week for which these opening hours are valid."
+    },
+    "DayOfWeek":{
+        "@id": "0:DayOfWeek",
+        "@type": "rdfs:Class",
+        "rdfs:label": "DayOfWeek",
+        "0:source": {
+          "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsClass"
+        },
+        "rdfs:comment": "The day of the week, e.g. used to specify to which day the opening hours of an OpeningHoursSpecification refer.\n\nOriginally, URLs from [GoodRelations](http://purl.org/goodrelations/v1) were used (for [[Monday]], [[Tuesday]], [[Wednesday]], [[Thursday]], [[Friday]], [[Saturday]], [[Sunday]] plus a special entry for [[PublicHolidays]]); these have now been integrated directly into schema.org.\n      ",
+        "rdfs:subClassOf": {
+          "@id": "0:Enumeration"
+        }
+    },
+     
+      
+       {
+      "@id": "0:Monday",
+      "@type": "0:DayOfWeek",
+      "rdfs:label": "Monday",
+      "0:sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q105"
+      },
+      "rdfs:comment": "The day of the week between Sunday and Tuesday."
+    },
