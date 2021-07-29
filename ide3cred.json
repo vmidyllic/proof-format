@@ -45,3 +45,19 @@
     }
   }
 }
+
+
+,
+          "serialization": {
+            "@id": "iden-proof-vocab:serialization",
+            "@type": "@id",
+            "@context": {
+              "@version": 1.1,
+              "@protected": true,
+              "id": "@id",
+              "type": "@type",
+              "sec": "https://w3id.org/security#",
+              "index": {"@id": "iden-proof-vocab:index", "@type": "@id", "@container": "@list"},
+              "value": {"@id": "iden-proof-vocab:value", "@type": "@id", "@container": "@list"}
+            }
+          }
