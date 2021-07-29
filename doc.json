@@ -3,10 +3,30 @@
     "@type":["IdenCredential"],
     "identifier":"0xabc",
     "data":{
-      
+          "index": {
+            "@type": "CustomCredentialIndexSerialization",
+            "age": 15,
+            "passport":""
+          },
+          "value": {
+            "@type": "CustomCredentialValueSerialization",
+            "nationality": 16
+          }
     }
   }
-  
- "value":{"@id": "custom-vocab:value",  "@container": "@list", "@values" : [
-    {"@type" : "xsd:string", "@id":"custom-vocab:nationality"}
-]}
+
+
+  {
+    "@context":["https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-10.json-ld","https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-4.json-ld"],
+    "@type":["IdenCredential","CustomCredential"],
+    "identifier":"0xabc",
+    "data":{
+        "age":18,
+        "nationality":"UA",
+        "index":["age"],
+        "value":["nationality"]
+    },
+    "dataSchema":{
+        "schema":"url to json schema"
+    }
+  }
