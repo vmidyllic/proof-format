@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-33.json-ld",
+        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-34.json-ld",
         "https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-credentials-2.json-ld"
     ],
     "@type": [
@@ -10,12 +10,12 @@
     "updatable": false,
     "version": 1,
     "rev_nonce": 890,
-    "data": {
+    "credentialSubject": {
         "@id":"0x13345",
         "@type": "KYCAgeCredential",
         "age": 18
     },
-    "dataSchema":{
+    "credentialSchema":{
         "@id":"https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-age.json",
         "type": "JsonSchemaValidator2018"
     },
