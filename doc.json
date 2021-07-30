@@ -1,6 +1,43 @@
 {
-    "@context":["https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-10.json-ld","https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-4.json-ld"],
-    "@type":["Inden3Credential","KYCAgeCredential"],
-    "age":{
+    "@context": [
+        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-27.json-ld",
+        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-11.json-ld"
+    ],
+    "@type": [
+        "Inden3Credential",
+        "KYCAgeCredential"
+    ],
+    "other_identifier": "0x123456789",
+    "expiration": "2010-01-01T19:23:24Z",
+    "updatable": false,
+    "version": 1,
+    "rev_nonce": 890,
+    "proof": {
+        "@type": "Iden3SparseMerkleProof",
+        "state": {
+            "tx_id": "0x12345",
+            "block_timestamp": 1234,
+            "block_number": 245,
+            "root_of_roots": "13423w3525252",
+            "claims_tree_root": "13423w3525252",
+            "revocation_tree_root": "13423w3525252"
+        },
+        "mtp": {
+            "@type": "SparseMerkleProof",
+            "existence": false,
+            "siblings": [],
+            "node_aux": {
+                "h_index": "1234235235",
+                "h_value": "1341341"
+            }
+        },
+        "issuer": "0x223456789"
+    },
+    "data": {
+        "age": 18
+    },
+    "dataSchema":{
+        "@id":"https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-age.json",
+        "type": "JsonSchemaValidator2018"
     }
-  }
+}
