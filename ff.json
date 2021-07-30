@@ -38,4 +38,15 @@
 
 
 
-    
+    ,
+        "node_aux" : "@nest",
+        "h_index" : {
+          "@id": "iden3-proof-vocab:h_index",
+          "@nest": "@node_aux",
+          "@type": "xsd:string"
+        },
+        "h_value" : {
+          "@id": "iden3-proof-vocab:h_value",
+          "@nest": "@node_aux",
+          "@type": "xsd:string"
+        }
