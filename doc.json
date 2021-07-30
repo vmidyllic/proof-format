@@ -1,17 +1,24 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-32.json-ld",
-        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-credentials-1.json-ld"
+        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-33.json-ld",
+        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-credentials-2.json-ld"
     ],
     "@type": [
-        "Iden3Credential",
-        "KYCAgeCredential"
+        "Iden3Credential"
     ],
-    "other_identifier": "0x123456789",
     "expiration": "2010-01-01T19:23:24Z",
     "updatable": false,
     "version": 1,
     "rev_nonce": 890,
+    "data": {
+        "@id":"0x13345",
+        "@type": "KYCAgeCredential",
+        "age": 18
+    },
+    "dataSchema":{
+        "@id":"https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-age.json",
+        "type": "JsonSchemaValidator2018"
+    },
     "proof": {
         "@type": "Iden3SparseMerkleProof",
         "state": {
@@ -32,12 +39,5 @@
             }
         },
         "issuer": "0x223456789"
-    },
-    "   ": {
-        "age": 18
-    },
-    "dataSchema":{
-        "@id":"https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-age.json",
-        "type": "JsonSchemaValidator2018"
     }
 }
