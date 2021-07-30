@@ -1,10 +1,10 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-27.json-ld",
-        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-11.json-ld"
+        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-32.json-ld",
+        "https://raw.githubusercontent.com/vmidyllic/proof-format/new/kyc-credentials-1.json-ld"
     ],
     "@type": [
-        "Inden3Credential",
+        "Iden3Credential",
         "KYCAgeCredential"
     ],
     "other_identifier": "0x123456789",
@@ -33,7 +33,7 @@
         },
         "issuer": "0x223456789"
     },
-    "data": {
+    "   ": {
         "age": 18
     },
     "dataSchema":{
