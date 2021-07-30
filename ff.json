@@ -35,3 +35,38 @@
       },
       "rdfs:comment": "The day of the week between Sunday and Tuesday."
     },
+
+
+
+    ,
+    "SparseMerkleProof": {
+      "@id": "https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-27.json-ld#Iden3SparseMerkleProof",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "sec": "https://w3id.org/security#",
+        "iden3-proof-vocab": "https://github.com/vmidyllic/proof-format/blob/new/proofs/Readme.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "existence": {
+          "@id": "iden3-proof-vocab:existence",
+          "@type": "xsd:boolean"
+        },
+        "siblings": {
+          "@id": "iden3-proof-vocab:siblings",
+          "@container": "@list"
+        },
+        "node_aux" : "@nest",
+        "h_index" : {
+          "@id": "iden3-proof-vocab:h_index",
+          "@nest": "@node_aux",
+          "@type": "xsd:string"
+        },
+        "h_value" : {
+          "@id": "iden3-proof-vocab:h_value",
+          "@nest": "@node_aux",
+          "@type": "xsd:string"
+        }
+      }
+    }
