@@ -1,8 +1,6 @@
 {
     "@context":["https://raw.githubusercontent.com/vmidyllic/proof-format/new/credential-10.json-ld","https://raw.githubusercontent.com/vmidyllic/proof-format/new/custom-4.json-ld"],
-    "@type":["IdenCredential","KYCAgeCredential"],
-    "data":{
-        "age":"",
-        "index":["age"]
+    "@type":["Inden3Credential","KYCAgeCredential"],
+    "age":{
     }
   }
